@@ -38,6 +38,7 @@ public enum JankenPoEnum {
 	}
 	
 }		//Testepopo4
+		//Testepopo5
 
 	public static void main(String[] args) {
 		Scanner lerDados = new Scanner (System.in);
