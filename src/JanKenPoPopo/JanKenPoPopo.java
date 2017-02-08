@@ -66,7 +66,7 @@ public enum JankenPoEnum {
 						System.out.println("Jogador escolheu uma opcao " + JankenPoEnum.getByValor(numEsc).getNome());
 					case 1:
 						System.out.println("Você perdeu!");
-						System.out.println("Jogador escolheu " + JankenPoEnum.getByValor(numEsc).getNome());
+						System.out.println("Jogador escolheu uma outra opcao" + JankenPoEnum.getByValor(numEsc).getNome());
 						break;
 					case 2:
 						System.out.println("Você ganhou!");
