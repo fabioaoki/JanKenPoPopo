@@ -37,7 +37,7 @@ public enum JankenPoEnum {
 		return null;
 	}
 	
-}
+}		//Testepopo4
 
 	public static void main(String[] args) {
 		Scanner lerDados = new Scanner (System.in);
@@ -49,14 +49,9 @@ public enum JankenPoEnum {
 		Random rand = new Random();
 //		int numEsc;
 		int cpu = rand.nextInt(3);
-
-		
-		
+				
 			System.out.println("Escolha, PEDRA-0 PAPEL-1 TESOURA-2:");
 	   	    numEsc = lerDados.nextInt();
-	   	    
-
-	
 		
 		switch (numEsc) {
 			case 0: 
@@ -111,22 +106,16 @@ public enum JankenPoEnum {
 			break;
 		}
 	}
-		
-		
-		
+					
 	System.out.println("CPU escolheu: " + JankenPoEnum.getByValor(cpu).getNome());
-		
-	
-		
+			
 //	    if ((numEsc >= 0 ) || (numEsc <= 2)) {
 //   	System.out.println("Opção invalida! Tente novamente");
 //   	System.out.println("Escolha, PEDRA-0 PAPEL-1 TESOURA-2:");
 //   	numEsc = lerDados.nextInt();
 //   	
 //   }
-		
-		
-		
+			
 	}
 
 }
